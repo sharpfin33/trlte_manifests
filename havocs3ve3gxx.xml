@@ -9,5 +9,5 @@
   <project path="device/samsung/qcom-common" remote="gittyfiy" name="FlominatorGD/android_device_samsung_qcom-common" revision="havoc-11" />
   <project name="FlominatorGD/android_hardware_samsung" path="hardware/samsung" remote="gittyfiy" revision="havoc-11" />
   <project path="hardware/sony/timekeep" remote="gittyfiy" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-18.1" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gitty" revision="lineage-18.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gittyfiy" revision="lineage-18.1" />
 </manifest>

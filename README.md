@@ -18,7 +18,7 @@ $ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11 .repo/loca
 #!!!Be sure to remove unwanted local manifest files that arent for your device!!!
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build
 $ . build/envsetup.sh && brunch havoc_"your-device-name"-"user or userdebug or eng"

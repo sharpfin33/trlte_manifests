@@ -21,5 +21,7 @@ $ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11 .repo/loca
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build
-$ . build/envsetup.sh && brunch havoc_"your-device-name"-"user or userdebug or eng"
+$ . build/envsetup.sh && brunch havoc_trlte-userdebug
+
+// For other build targets than trlte // $ . build/envsetup.sh && brunch havoc_"your-device-name"-"user or userdebug or eng"
 ```

@@ -9,7 +9,7 @@ local_manifests
 # Create dirs
 $ mkdir havoc ; cd havoc
 
-# Init repo
+# Init repo and first sync
 $ repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven && repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Clone my local repo
@@ -17,7 +17,7 @@ $ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11 .repo/loca
 
 #!!!Be sure to remove unwanted local manifest files that arent for your device!!!
 
-# Sync
+# Sencond sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build

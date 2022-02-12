@@ -10,7 +10,7 @@ local_manifests
 $ mkdir havoc ; cd havoc
 
 # Init repo
-$ repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven
+$ repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven && repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Clone my local repo
 $ git clone https://github.com/FlominatorGD/manifests.git -b havoc-11 .repo/local_manifests

@@ -9,7 +9,7 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="trlte" revision="lineage-18.1" />
   <project name="FlominatorGD/android_hardware_samsung" path="hardware/samsung" remote="trlte" revision="havoc-11" />
   <project name="FlominatorGD/android_device_samsung_trlte" path="device/samsung/trlte" remote="trlte" revision="havoc-11" />
-  <project name="FlominatorGD/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="trlte" revision="havoc-11" />
+  <project name="sharpfin33/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="trlte" revision="lineage-18.1" />
   <project name="apq8084/android_hardware_qcom_display" path="hardware/qcom-caf/apq8084/display" remote="trlte" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-apq8084" />
   <project name="apq8084/android_hardware_qcom_media" path="hardware/qcom-caf/apq8084/media" remote="trlte" groups="pdk-qcom,qcom,qcom_media" revision="lineage-18.1-caf-apq8084" />
   <project name="apq8084/android_kernel_samsung_apq8084" path="kernel/samsung/apq8084" remote="trlte" revision="lineage-18.1" />

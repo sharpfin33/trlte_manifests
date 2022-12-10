@@ -1,6 +1,3 @@
 # trlte_manifests
-Local Manifest files for building trlte roms
-Available branches:
-lineage-18.1
-crdroid-7
+Local Manifest files for building CrDroid vs 7.x (Android 11) trlte roms
 
